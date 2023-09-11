@@ -1,0 +1,31 @@
+.btn{
+    border-radius: 8px;
+    color: $primary-white-color;
+    @include fontSetting(1.5rem,500,1,1px);
+    text-transform: uppercase;
+    padding:1.8rem 2.5rem 1.6rem 2.4rem ;
+    transition: 0.3s;
+}
+.dark-btn{
+    background-color: $primary-white-color;
+    color: $secondary-dark-grey-color;
+    
+
+    &:hover{
+        background-color: $secondary-light-peach-color;
+        color: $primary-white-color;
+    }
+   
+
+}
+.light-btn{
+    background-color: $primary-peach-color;
+    color: $primary-white-color;
+    &:hover{
+        background-color: $secondary-light-peach-color;
+        color: $primary-white-color;
+    }
+    &:active{
+        border: 1px dashed $primary-black-color;
+    }
+}

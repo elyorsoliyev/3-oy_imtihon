@@ -1,0 +1,12 @@
+@mixin fontSetting ($fs,$fw,$lh,$ls){
+    font-size: $fs;
+    font-weight: $fw;
+    line-height: $lh;
+    letter-spacing: $ls;
+}
+
+@mixin reset {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
